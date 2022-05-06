@@ -1,0 +1,357 @@
+{
+	"students": [
+		{
+			"id": 1,
+			"roll_no": 93305,
+			"first_name": "Rhiannon",
+			"last_name": "Hammes",
+			"Class": "QBL`K#Yh:R",
+			"division": "bandwidth-bypass",
+			"dues": "648.00",
+			"issued_books": 0
+		},
+		{
+			"id": 2,
+			"roll_no": 38078,
+			"first_name": "Kelli",
+			"last_name": "Goldner",
+			"Class": "ZJrnF,|s$E",
+			"division": "panel-connect",
+			"dues": "343.00",
+			"issued_books": 0
+		},
+		{
+			"id": 3,
+			"roll_no": 59762,
+			"first_name": "Monserrate",
+			"last_name": "Roberts",
+			"Class": "c;l9MD=dgx",
+			"division": "array-parse",
+			"dues": "74.00",
+			"issued_books": 0
+		},
+		{
+			"id": 4,
+			"roll_no": 70507,
+			"first_name": "Reggie",
+			"last_name": "Hudson",
+			"Class": "VGQhuv_ag!",
+			"division": "application-parse",
+			"dues": "375.00",
+			"issued_books": 0
+		},
+		{
+			"id": 5,
+			"roll_no": 84279,
+			"first_name": "Noemie",
+			"last_name": "Rau",
+			"Class": "b7nlcw4-T6",
+			"division": "microchip-program",
+			"dues": "156.00",
+			"issued_books": 0
+		},
+		{
+			"id": 6,
+			"roll_no": 76151,
+			"first_name": "Hermann",
+			"last_name": "Brekke",
+			"Class": "wF[@{M5:xB",
+			"division": "driver-parse",
+			"dues": "582.00",
+			"issued_books": 0
+		},
+		{
+			"id": 7,
+			"roll_no": 12604,
+			"first_name": "Lelia",
+			"last_name": "Spinka",
+			"Class": "]e9Y:0%y(9",
+			"division": "capacitor-program",
+			"dues": "157.00",
+			"issued_books": 0
+		},
+		{
+			"id": 8,
+			"roll_no": 60014,
+			"first_name": "Janick",
+			"last_name": "Connelly",
+			"Class": "e$f\"\\wU^q0",
+			"division": "card-override",
+			"dues": "18.00",
+			"issued_books": 0
+		},
+		{
+			"id": 9,
+			"roll_no": 32254,
+			"first_name": "Mauricio",
+			"last_name": "Johnston",
+			"Class": "cbQreUP;V_",
+			"division": "monitor-compress",
+			"dues": "793.00",
+			"issued_books": 0
+		},
+		{
+			"id": 10,
+			"roll_no": 51960,
+			"first_name": "Dixie",
+			"last_name": "Ferry",
+			"Class": "5@NnsEH!o#",
+			"division": "hard-drive-override",
+			"dues": "34.00",
+			"issued_books": 0
+		},
+		{
+			"id": 11,
+			"roll_no": 59302,
+			"first_name": "Anastacio",
+			"last_name": "Rowe",
+			"Class": "dD1c&7\\KPP",
+			"division": "port-index",
+			"dues": "474.00",
+			"issued_books": 0
+		},
+		{
+			"id": 12,
+			"roll_no": 30214,
+			"first_name": "Quentin",
+			"last_name": "Bahringer",
+			"Class": ")Wm&!diLG9",
+			"division": "card-bypass",
+			"dues": "856.00",
+			"issued_books": 0
+		},
+		{
+			"id": 13,
+			"roll_no": 35933,
+			"first_name": "Omari",
+			"last_name": "Schuppe",
+			"Class": "h0`#n\\!glr",
+			"division": "driver-override",
+			"dues": "581.00",
+			"issued_books": 0
+		},
+		{
+			"id": 14,
+			"roll_no": 94410,
+			"first_name": "Piper",
+			"last_name": "Wolf",
+			"Class": "_Xfx|*ju!g",
+			"division": "sensor-bypass",
+			"dues": "607.00",
+			"issued_books": 0
+		},
+		{
+			"id": 15,
+			"roll_no": 25579,
+			"first_name": "Jackson",
+			"last_name": "Willms",
+			"Class": "HJ_3QZ3ixy",
+			"division": "system-input",
+			"dues": "396.00",
+			"issued_books": 0
+		},
+		{
+			"id": 16,
+			"roll_no": 46918,
+			"first_name": "Elenora",
+			"last_name": "Carroll",
+			"Class": "}U\\OC@\"lkp",
+			"division": "program-generate",
+			"dues": "734.00",
+			"issued_books": 0
+		},
+		{
+			"id": 17,
+			"roll_no": 68621,
+			"first_name": "Marjolaine",
+			"last_name": "Lubowitz",
+			"Class": "eX&s&17937",
+			"division": "transmitter-synthesize",
+			"dues": "943.00",
+			"issued_books": 0
+		},
+		{
+			"id": 18,
+			"roll_no": 54856,
+			"first_name": "Teresa",
+			"last_name": "Denesik",
+			"Class": "4eC5_bD_9+",
+			"division": "array-connect",
+			"dues": "31.00",
+			"issued_books": 0
+		},
+		{
+			"id": 19,
+			"roll_no": 24818,
+			"first_name": "Joana",
+			"last_name": "Nicolas",
+			"Class": "F*e@nfC<xD",
+			"division": "program-reboot",
+			"dues": "363.00",
+			"issued_books": 0
+		},
+		{
+			"id": 20,
+			"roll_no": 68905,
+			"first_name": "Adaline",
+			"last_name": "Rice",
+			"Class": "XS#?P1<;y7",
+			"division": "matrix-copy",
+			"dues": "746.00",
+			"issued_books": 0
+		}
+	],
+	"books": [
+		{
+			"id": 1,
+			"book_id": 75350,
+			"book_name": "producer_agent_regional.xdf",
+			"book_edition": "2021-05-16T14:38:26.982Z",
+			"book_department": "Games",
+			"available_copies": 65671,
+			"issued_copies": 36686,
+			"total_books": 102357
+		},
+		{
+			"id": 2,
+			"book_id": 47797,
+			"book_name": "salmon_concrete_calculating.gqs",
+			"book_edition": "2022-04-03T22:42:19.287Z",
+			"book_department": "Computers",
+			"available_copies": 83719,
+			"issued_copies": 47629,
+			"total_books": 131348
+		},
+		{
+			"id": 3,
+			"book_id": 66228,
+			"book_name": "lucia_fresh_program.odf",
+			"book_edition": "2022-01-06T13:17:09.265Z",
+			"book_department": "Baby",
+			"available_copies": 24825,
+			"issued_copies": 92099,
+			"total_books": 116924
+		},
+		{
+			"id": 4,
+			"book_id": 61714,
+			"book_name": "internet.ai",
+			"book_edition": "2022-03-17T15:31:11.278Z",
+			"book_department": "Garden",
+			"available_copies": 80545,
+			"issued_copies": 74629,
+			"total_books": 155174
+		},
+		{
+			"id": 5,
+			"book_id": 32758,
+			"book_name": "leading_edge_copying_cotton.xlsb",
+			"book_edition": "2021-11-14T00:00:07.210Z",
+			"book_department": "Automotive",
+			"available_copies": 68983,
+			"issued_copies": 38081,
+			"total_books": 107064
+		},
+		{
+			"id": 6,
+			"book_id": 40841,
+			"book_name": "copying_corporate_cross_platform.bmi",
+			"book_edition": "2022-02-04T19:23:30.919Z",
+			"book_department": "Movies",
+			"available_copies": 30909,
+			"issued_copies": 23318,
+			"total_books": 54227
+		},
+		{
+			"id": 7,
+			"book_id": 57853,
+			"book_name": "mobile.f4v",
+			"book_edition": "2021-06-13T04:37:39.869Z",
+			"book_department": "Clothing",
+			"available_copies": 75880,
+			"issued_copies": 21597,
+			"total_books": 97477
+		},
+		{
+			"id": 8,
+			"book_id": 89579,
+			"book_name": "loan_whiteboard_tenge.mks",
+			"book_edition": "2021-10-12T10:05:33.922Z",
+			"book_department": "Industrial",
+			"available_copies": 68779,
+			"issued_copies": 68422,
+			"total_books": 137201
+		},
+		{
+			"id": 9,
+			"book_id": 42794,
+			"book_name": "envisioneer_luxembourg_alarm.m21",
+			"book_edition": "2022-05-03T16:08:11.768Z",
+			"book_department": "Sports",
+			"available_copies": 988,
+			"issued_copies": 20496,
+			"total_books": 21484
+		},
+		{
+			"id": 10,
+			"book_id": 85663,
+			"book_name": "security_pre_emptive.uvz",
+			"book_edition": "2022-03-11T02:48:46.774Z",
+			"book_department": "Computers",
+			"available_copies": 45847,
+			"issued_copies": 82394,
+			"total_books": 128241
+		},
+		{
+			"id": 11,
+			"book_id": 78305,
+			"book_name": "upward_trending.ymp",
+			"book_edition": "2021-05-08T20:08:48.135Z",
+			"book_department": "Baby",
+			"available_copies": 53651,
+			"issued_copies": 4420,
+			"total_books": 58071
+		},
+		{
+			"id": 12,
+			"book_id": 8353,
+			"book_name": "brand.dll",
+			"book_edition": "2021-12-19T03:30:16.906Z",
+			"book_department": "Sports",
+			"available_copies": 32084,
+			"issued_copies": 2147,
+			"total_books": 34231
+		},
+		{
+			"id": 13,
+			"book_id": 79867,
+			"book_name": "nebraska.sdp",
+			"book_edition": "2022-02-13T20:15:31.669Z",
+			"book_department": "Beauty",
+			"available_copies": 48743,
+			"issued_copies": 68421,
+			"total_books": 117164
+		},
+		{
+			"id": 14,
+			"book_id": 32983,
+			"book_name": "iterate.scss",
+			"book_edition": "2021-09-25T13:18:18.392Z",
+			"book_department": "Baby",
+			"available_copies": 20268,
+			"issued_copies": 93164,
+			"total_books": 113432
+		},
+		{
+			"id": 15,
+			"book_id": 73015,
+			"book_name": "fuchsia_deliver.mp3",
+			"book_edition": "2021-09-12T17:30:27.408Z",
+			"book_department": "Grocery",
+			"available_copies": 44927,
+			"issued_copies": 55440,
+			"total_books": 100367
+		}
+	],
+	"issuedbooks": []
+}
