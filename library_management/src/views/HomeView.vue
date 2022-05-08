@@ -135,7 +135,7 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper p-3 ">
     <!-- Content Header (Page header) -->
     <div class="card">
       <router-view></router-view>
