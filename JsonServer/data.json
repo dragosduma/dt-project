@@ -179,6 +179,16 @@
       "division": "interface-index",
       "dues": "332.00",
       "issued_books": 0
+    },
+    {
+      "id": 102,
+      "roll_no": "36",
+      "first_name": "John",
+      "last_name": "Doe",
+      "Class": "CSE",
+      "division": "hard-drive-transmit",
+      "dues": "0",
+      "issued_books": 0
     }
   ],
   "books": [
