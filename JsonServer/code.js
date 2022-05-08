@@ -5,9 +5,7 @@ function generateData(){
     let students = []
     let books = []
     let issuedbooks = []
-    for(let id=1; id<=20;id++){
-       
-       
+    for(let id=1; id<=20;id++){      
         students.push({
             "id":id,
             "roll_no":faker.datatype.number(),
