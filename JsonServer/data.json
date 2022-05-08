@@ -243,16 +243,6 @@
       "total_books": 103765
     },
     {
-      "id": 6,
-      "book_id": 2237,
-      "book_name": "omani.mqy",
-      "book_edition": "2021-06-09T14:56:27.892Z",
-      "book_department": "Grocery",
-      "available_copies": 87566,
-      "issued_copies": 5949,
-      "total_books": 93515
-    },
-    {
       "id": 7,
       "book_id": 84008,
       "book_name": "usb.wbmp",
@@ -341,6 +331,16 @@
       "available_copies": 77507,
       "issued_copies": 34779,
       "total_books": 112286
+    },
+    {
+      "id": 266,
+      "book_id": 4,
+      "book_name": "ABC",
+      "book_edition": "2022-05-10",
+      "book_department": "ETC",
+      "available_copies": 6,
+      "issued_copies": 0,
+      "total_books": 6
     }
   ],
   "issuedbooks": []
