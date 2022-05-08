@@ -1,3 +1,6 @@
+/node_modules
+.cache
+/eslint
 # local env files
 .env.local
 .env.*.local

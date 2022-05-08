@@ -1,5 +1,6 @@
 <template>
 <div>
+ 
   <div class="wrapper">
 
   <!-- Navbar -->
@@ -18,7 +19,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4 .layout-fixed">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <i class = "fas fa-books"></i>
@@ -26,7 +27,7 @@
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar os-host os-theme-light os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition os-host-scrollbar-vertical-hidden ">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
@@ -123,8 +124,7 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>Books Report</p>
               </router-link>         
-              </li>
-              
+              </li>              
             </ul>
           </li>
         </ul>
@@ -166,11 +166,10 @@
 <!-- ./wrapper -->
 
 </div>
+
 </template>
 
 <script>
-
-
 export default {
   name: 'HomeView',
   components: {
