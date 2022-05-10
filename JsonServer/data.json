@@ -18,7 +18,7 @@
       "Class": "5q\\n@$(V`8",
       "division": "hard-drive-transmit",
       "dues": "709.00",
-      "issued_books": 0
+      "issued_books": 1
     },
     {
       "id": 4,
@@ -338,10 +338,19 @@
       "book_name": "ABC",
       "book_edition": "2022-05-10",
       "book_department": "ETC",
-      "available_copies": 6,
-      "issued_copies": 0,
+      "available_copies": 5,
+      "issued_copies": 1,
       "total_books": 6
     }
   ],
-  "issuedbooks": []
+  "issuedbooks": [
+    {
+      "student_id": 3,
+      "book_id": 266,
+      "issue_date": "2022-05-20",
+      "return_date": "2022-05-28",
+      "issued_copies": 1,
+      "id": 1
+    }
+  ]
 }
