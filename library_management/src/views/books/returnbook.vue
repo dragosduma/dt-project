@@ -1,6 +1,6 @@
 <template>
     <div class="p-5">  
-         <h5 style="color:grey;letter-spacing:10px"><strong>Return Book</strong> </h5>
+         <h5 style="color:grey;letter-spacing:10px"><strong>RETURN BOOK</strong> </h5>
          <hr>
           <form >
 

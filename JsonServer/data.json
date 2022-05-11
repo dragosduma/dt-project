@@ -18,7 +18,7 @@
       "Class": "5q\\n@$(V`8",
       "division": "hard-drive-transmit",
       "dues": "709.00",
-      "issued_books": 1
+      "issued_books": 0
     },
     {
       "id": 4,
@@ -338,8 +338,8 @@
       "book_name": "ABC",
       "book_edition": "2022-05-10",
       "book_department": "ETC",
-      "available_copies": 3,
-      "issued_copies": 3,
+      "available_copies": 4,
+      "issued_copies": 2,
       "total_books": 6
     }
   ],
