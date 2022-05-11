@@ -188,7 +188,7 @@
       "Class": "CSE",
       "division": "hard-drive-transmit",
       "dues": "0",
-      "issued_books": 0
+      "issued_books": 1
     }
   ],
   "books": [
@@ -338,19 +338,10 @@
       "book_name": "ABC",
       "book_edition": "2022-05-10",
       "book_department": "ETC",
-      "available_copies": 5,
-      "issued_copies": 1,
+      "available_copies": 3,
+      "issued_copies": 3,
       "total_books": 6
     }
   ],
-  "issuedbooks": [
-    {
-      "student_id": 3,
-      "book_id": 266,
-      "issue_date": "2022-05-20",
-      "return_date": "2022-05-28",
-      "issued_copies": 1,
-      "id": 1
-    }
-  ]
+  "issuedbooks": []
 }

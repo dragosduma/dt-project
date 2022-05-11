@@ -153,35 +153,39 @@ export default {
           var issueBookData = this.issueBookData
           axios.post('http://localhost:3000/issuedbooks', issueBookData)
           .then(function(){
+
               alert("Book is Issued")
           })
           .catch(function(){
               alert("Error Occured")
           })
       },
-      getStudent() {
-            var _this = this
-            axios.get('http://localhost:3000/students/'+_this.issueBookData.student_id)
-            .then(function (response) {               
-                _this.updateStudent(response.data)
-            })
-            .catch(function (error) {
-                console.log(error)
-            })
-        },
-     updateStudent(stuData) {
-            console.log(stuData)
-            stuData.issued_books = stuData.issued_books+1
-            var _this = this
-            axios.put('http://localhost:3000/students/'+_this.issueBookData.student_id,stuData)
-            .then(function () {
-                alert("Student is Updated")
-                
-            })
-            .catch(function (error) {
-                console.log(error)
-            })
-        },       
+     getStudent(){
+                var _this = this
+                axios.get('http://localhost:3000/students/'+ _this.issueBookData.student_id)
+                .then(function(response){
+                    
+                    _this.updateStudent(response.data)
+                })
+                .catch(function(error){
+                    console.log(error)
+                })
+            },
+            updateStudent(stuData){
+                 var _this = this
+                console.log(stuData)
+                stuData.issued_books = stuData.issued_books+1;
+
+                 axios.put('http://localhost:3000/students/'+_this.issueBookData.student_id,stuData)
+                .then(function(){
+                    
+                   alert("Student is updated")
+                })
+                .catch(function(error){
+                    console.log(error)
+                })
+
+            },
   },
 };
 </script>
