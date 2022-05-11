@@ -19,7 +19,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4 .layout-fixed">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4 ">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <i class = "fas fa-books"></i>
@@ -46,7 +46,7 @@
         <ul class = "nav nav-pills nav-sidebar flex-columns" data-widget="treeview" role = "menu" data-accordion = "false">
             <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
+               <i class="nav-icon fas fa-users"></i>
               <p>
                 Students
                 <i class="fas fa-angle-left right"></i>
@@ -55,13 +55,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
               <router-link to="/" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                 <i class="fa fa-user-friends nav-icon"></i>
                   <p>Student List</p>
               </router-link>               
               </li>
               <li class="nav-item">
               <router-link to="/AddStudent" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="fas fa-user-plus nav-icon"></i>
                   <p>Add Student</p>
               </router-link>               
               </li>              
@@ -78,7 +78,7 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/AddBook" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="fas fa-plus nav-icon"></i>
                   <p>Add Book</p>
               </router-link>         
               </li>
@@ -92,19 +92,19 @@
               -->
               <li class="nav-item">
                 <router-link to="/IssueBook" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                   <i class="fas fa-edit nav-icon"></i>
                   <p>Issue Book</p>
               </router-link>         
               </li>
               <li class="nav-item">
                 <router-link to="/ReturnBook" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="fas fa-eraser nav-icon"></i>
                   <p>Return Book</p>
               </router-link>         
               </li>
               <li class="nav-item">
                 <router-link to="/BookList" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>Book List</p>
               </router-link>         
               </li>
@@ -112,7 +112,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
+                 <i class="nav-icon fas fa-chart-bar"></i>
               <p>
                 Reports
                 <i class="fas fa-angle-left right"></i>
@@ -121,7 +121,7 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/BooksReport" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                   <i class="fa fa-chart-pie nav-icon"></i>
                   <p>Books Report</p>
               </router-link>         
               </li>              
