@@ -87,7 +87,13 @@ export default {
         total_books:null,
     };
   },
-  mounted() {},
+  mounted() {
+            let user = localStorage.getItem('user-info');
+            if(!user)
+            {
+                this.$router.push({name:'SignUp'})
+            }
+  },
   methods: {
     addBook() {
         var BookData ={
