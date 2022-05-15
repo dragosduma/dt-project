@@ -31,8 +31,7 @@ function generateData(){
             "book_department":faker.commerce.department(),
             "available_copies":availble_copies,
             "issued_copies":issued_copies,
-            "total_books":availble_copies+issued_copies,
-           
+            "total_books":availble_copies+issued_copies,         
         });
     }
     return {

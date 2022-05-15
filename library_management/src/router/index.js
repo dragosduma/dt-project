@@ -7,11 +7,29 @@ import AddBook from "../views/books/addbook.vue"
 import BookList from "../views/books/booklist.vue"
 import IssueBook from "../views/books/issuebook.vue"
 import ReturnBook from "../views/books/returnbook.vue"
+import SignUp from "../components/SignUp.vue"
+import LogIn from "../components/LogIn.vue"
+import Home from "../views/HomeView.vue"
 
 
 const routes = [
   {
     path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/LogIn',
+    name: 'LogIn',
+    component: LogIn
+  },
+  {
+    path: '/SignUp',
+    name: 'SignUp',
+    component: SignUp
+  },
+  {
+    path: '/StudentList',
     name: 'StudentList',
     component: StudentList
   },

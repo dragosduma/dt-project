@@ -91,16 +91,6 @@
       "issued_books": 0
     },
     {
-      "id": 11,
-      "roll_no": 6509,
-      "first_name": "Rylee",
-      "last_name": "Legros",
-      "Class": "^Bn?_-qMb8",
-      "division": "program-generate",
-      "dues": "182.00",
-      "issued_books": 0
-    },
-    {
       "id": 12,
       "roll_no": 74908,
       "first_name": "Toni",
@@ -343,5 +333,13 @@
       "total_books": 6
     }
   ],
-  "issuedbooks": []
+  "issuedbooks": [],
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin",
+      "password": "admin",
+      "id": 1
+    }
+  ]
 }
