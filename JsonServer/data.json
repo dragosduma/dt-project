@@ -340,6 +340,24 @@
       "email": "admin",
       "password": "admin",
       "id": 1
+    },
+    {
+      "name": "name",
+      "email": "mail@domain.com",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "name": "name",
+      "email": "mail2@domain.com",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "name": "name",
+      "email": "mail3@domain.com",
+      "password": "password",
+      "id": 4
     }
   ]
 }
