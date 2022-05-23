@@ -1,10 +1,12 @@
 <template>
     <div class="register">
-        <h1>Sign Up</h1>
-        <input type="text" v-model="name" placeholder="Enter Name" />
-        <input type="text" v-model="email" placeholder="Enter Email" />
-        <input type="password" v-model="password" placeholder="Enter Password" />
-        <button v-on:click="signUp">Sign Up</button>
+        <form>
+            <h1>Sign Up</h1>
+            <input type="text" v-model="name" placeholder="Enter Name" required/>
+            <input type="text" v-model="email" placeholder="Enter Email" required/>
+            <input type="password" v-model="password" placeholder="Enter Password" required/>
+            <button v-on:click="signUp">Sign Up</button>
+        </form>
         <p>
             <router-link to="/login">
                 Already have an account? Login here
@@ -18,6 +20,7 @@ export default {
     name: 'SignUp',
     data() {
         return {
+            errors: '',
             name: '',
             email: '',
             password: ''
@@ -25,22 +28,47 @@ export default {
     },
     methods: {
         async signUp() {
-            let result = await axios.post("http://localhost:3000/users", {
-                name: this.name,
-                email: this.email,
-                password: this.password
-            });
 
-            if (result.status == 201) {
-                localStorage.setItem("user-info", JSON.stringify(result.data))
-                this.$router.push({ name: 'Home' })
+            this.errors = [];
+
+            if (!this.name) {
+                this.errors.push("Name required.");
             }
-        }
+            else if (!this.email) {
+                this.errors.push('Email required.');
+            } else if (!this.validEmail(this.email)) {
+                this.errors.push('Valid email required.');
+                alert("Valid email required.");
+            }
+            else if(!this.password){
+                this.errors.push('Password required.');
+            } 
+        
+
+            console.log(this.errors);
+            if(!this.errors.length){
+                let result = await axios.post("http://localhost:3000/users", {
+                    name: this.name,
+                    email: this.email,
+                    password: this.password
+                });
+
+                if (result.status == 201) {
+                    localStorage.setItem("user-info", JSON.stringify(result.data))
+                    this.$router.push({ name: 'Home' })
+                }
+            }
+        },
+        validEmail: function (email) {
+                var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(email);
+        },
+        
     },
     mounted() {
         let user = localStorage.getItem('user-info');
         if (user) {
-            this.$router.push({ name: 'Home' })
+            this.$router.push({ name: 'LogIn' })
         }
     }
 }
