@@ -1,9 +1,11 @@
 <template>
     <div class="login">
         <h1>Log In</h1>
-        <input type="text" v-model="email" placeholder="Enter Email" />
-        <input type="password" v-model="password" placeholder="Enter Password" />
-        <button v-on:click="logIn">Log in</button>
+        <form>
+            <input type="text" v-model="email" placeholder="Enter Email" required/>
+            <input type="password" v-model="password" placeholder="Enter Password" required/>
+            <button type="submit" v-on:click="logIn" >Log in</button>
+        </form>
         <p>
             <router-link to="/signup">
                 Don't have an account? Register here
@@ -28,10 +30,9 @@ export default {
                 `http://localhost:3000/users?email=${this.email}&password=${this.password}`
             )
 
-            if(result.status==200 && result.data.length>0)
-            {               
+            if (result.status == 200 && result.data.length > 0) {
                 localStorage.setItem("user-info", JSON.stringify(result.data[0]))
-                this.$router.push({name:'Home'})
+                this.$router.push({ name: 'Home' })
             }
         }
     },

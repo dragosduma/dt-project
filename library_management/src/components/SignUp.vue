@@ -5,7 +5,7 @@
             <input type="text" v-model="name" placeholder="Enter Name" required/>
             <input type="text" v-model="email" placeholder="Enter Email" required/>
             <input type="password" v-model="password" placeholder="Enter Password" required/>
-            <button v-on:click="signUp">Sign Up</button>
+            <button type="submit" v-on:click="signUp">Sign Up</button>
         </form>
         <p>
             <router-link to="/login">
@@ -34,9 +34,10 @@ export default {
             if (!this.name) {
                 this.errors.push("Name required.");
             }
-            else if (!this.email) {
+           else if (!this.email) {
                 this.errors.push('Email required.');
-            } else if (!this.validEmail(this.email)) {
+            } 
+            else if (!this.validEmail(this.email)) {
                 this.errors.push('Valid email required.');
                 alert("Valid email required.");
             }
@@ -44,7 +45,6 @@ export default {
                 this.errors.push('Password required.');
             } 
         
-
             console.log(this.errors);
             if(!this.errors.length){
                 let result = await axios.post("http://localhost:3000/users", {
@@ -62,8 +62,7 @@ export default {
         validEmail: function (email) {
                 var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                 return re.test(email);
-        },
-        
+        }    
     },
     mounted() {
         let user = localStorage.getItem('user-info');
